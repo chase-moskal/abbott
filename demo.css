@@ -1,0 +1,56 @@
+
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	background: #111;
+	color: #777;
+}
+
+a {
+	color: cyan;
+}
+
+body {
+	padding: 2em;
+}
+
+label {
+	display: block;
+}
+
+textarea {
+	background: #333;
+	color: #777;
+	padding: 1em;
+	width: 80%;
+	max-width: 640px;
+	min-height: 140px;
+	margin-top: 1em;
+}
+
+.result {
+	margin-top: 1em;
+}
+
+.result ol,
+.result ul {
+	padding-left: 1.5em;
+}
+
+.warnings {
+	color: maroon;
+}
+
+warnings h2 {
+	font-size: 1.1em;
+}
+
+.success {
+	color: #aaa;
+}
