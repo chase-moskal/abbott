@@ -13,6 +13,10 @@ html, body {
 }
 
 a {
+	color: #999;
+}
+
+.result a {
 	color: cyan;
 }
 
@@ -28,8 +32,8 @@ textarea {
 	background: #333;
 	color: #777;
 	padding: 1em;
-	width: 80%;
-	max-width: 640px;
+	width: 100%;
+	max-width: 1200px;
 	min-height: 140px;
 	margin-top: 1em;
 }
